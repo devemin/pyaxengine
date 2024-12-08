@@ -4,7 +4,7 @@
 
 ############################################
 #
-# Edit in line 128 and line 175
+# Edit in line 130 and line 178
 #
 ############################################
 
@@ -125,6 +125,8 @@ def main(model_path, image_path, target_size, crop_size, k):
         #print(ret)
     
         # Load the image
+        
+        ### Change the Cat or Camera ### 
         CAT_OR_CAM = 0
         
         if (CAT_OR_CAM):
@@ -172,6 +174,7 @@ def main(model_path, image_path, target_size, crop_size, k):
 
         #time.sleep(5)
 
+        ### Change the comment-out, but now X11Forward not working. ### 
         #cv2.imshow('camera' , numpy_frame)
 
 
