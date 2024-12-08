@@ -1,6 +1,14 @@
 ﻿# Copyright (c) 2024 nnn112358
 # modified 2024/12/08 by devemin
 
+
+############################################
+#
+# Edit in line 128 and line 175
+#
+############################################
+
+
 import axengine as axe
 import numpy as np
 import cv2
