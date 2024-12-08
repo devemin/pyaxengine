@@ -163,7 +163,7 @@ def main(model_path, image_path, target_size, crop_size, k):
 
         #time.sleep(5)
 
-        cv2.imshow('camera' , numpy_frame)
+        #cv2.imshow('camera' , numpy_frame)
 
 
 
